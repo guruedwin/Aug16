@@ -1,0 +1,27 @@
+h1 {color:red}        
+h2 {color:dodgerblue}
+
+#intro {line-height: 30px; text-align: justify; 
+        color: dodgerblue}
+
+#intro::first-letter {color:red; font-size:45pt;}
+
+.para {line-height: 30px; text-align: justify; 
+       color:gray}
+
+.para::first-line {color:white; background-color:gray;
+                     font-size:12pt;}
+
+.para::first-letter {font-size:45pt; Color:Black;}
+
+ul {list-style-type:lower-roman}
+
+ul li a {color:gray; font-size: 12pt;
+         text-decoration: none; line-height: 30px;}
+
+ul li a:hover {color:red; 
+                text-decoration:overline;}
+
+a {color:dodgerblue; text-decoration: none;}
+
+a:hover {color:red; text-decoration: overline;}
